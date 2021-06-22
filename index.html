@@ -6,9 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
 </head>
 <body>
+
+  <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 navbar">
+				<a href="index.html" class="logo navbar-brand text-white offset-md-2">Logo</a>
+				<ul class="nav">
+					<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+				</ul>
+			</div>
+
+			<!-- slider banner	 -->
+
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			    	<div class="info">
+			      		<h1>SLIDE ONE</h1>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			      	</div>
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="info">
+			      		<h1>SLIDE TWO</h1>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			      	</div>
+			    </div>
+			    <div class="carousel-item">
+			    	<div class="info">
+			      		<h1>SLIDE THREE</h1>
+			      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+			      	</div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+	</div>
+
+
+  <footer
+      class="container-fluid footer_style d-flex justify-content-center align-items-center"
+      id="footer_style"
+    >
+      <div class="d-flex align-items-center flex-column">
+        <h2 class="py-4">CONTACT</h2>
+        <div class="py-4">
+          <a href="https://www.twitter.com/"
+            ><i class="fab fa-twitter fa-2x mx-2 circle_icon"></i></a
+          ><a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook-f fa-2x mx-2 circle_icon"></i></a
+          ><a href="https://www.instagram.com/"
+            ><i class="fab fa-instagram fa-2x mx-2 circle_icon"></i
+          ></a>
+          <a href="https://www.youtube.com/"
+            ><i class="fab fa-youtube fa-2x mx-2 circle_icon"></i
+          ></a>
+      
+        </div>
+        <p>
+          &#169; Untitled. Design <span><a href="#">templated</a></span> Images:
+          <span><a href="https://unsplash.com/">Unsplash</a></span>
+        </p>
+      </div>
+    </footer>
+
+
+
+  
     <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
