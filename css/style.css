@@ -1,6 +1,10 @@
 /*google font*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -43,6 +47,7 @@
 	position: relative;
 	height: 100vh;
 	width: 100%;
+    
 }
 #carouselExampleIndicators .carousel-inner{
 	position: relative;
@@ -64,19 +69,19 @@
 	position: relative;
 	height: 100%;
 	width:100%;
-	background: url('https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('http://a.mktgcdn.com/p/_TBE6uUEiZ0_KFT5bW0jsTyqzRIkVzGF1-4hTvIeJEY/2500x1667.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url('https://images.pexels.com/photos/256937/pexels-photo-256937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('https://prodigalthought.files.wordpress.com/2016/07/professional-sports.png');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-	background: url('https://images.pexels.com/photos/1064162/pexels-photo-1064162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('https://cdn-res.keymedia.com/cms/images/ca/155/0319_637171637373959129.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
