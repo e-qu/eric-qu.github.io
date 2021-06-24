@@ -5,14 +5,14 @@ html {
     scroll-behavior: smooth;
 }
 body{
-	background: rgb(46, 14, 185);
-background: linear-gradient(90deg, rgb(150, 157, 190) 0%, rgb(47, 17, 177) 35%, rgb(129, 117, 117) 100%);
+	background: rgb(255, 253, 253);
+background: linear-gradient(90deg, rgb(43, 41, 133) 0%, rgb(0, 0, 0) 35%, rgb(23, 40, 134) 100%) ;
 }
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins',sans-serif !important;
+	font-family: 'Poppins',sans-serif ;
 	
 }
 .navbar{
@@ -144,4 +144,7 @@ footer{
 .img_link:hover{
 	text-decoration: none !important;
 	color: white;
+}
+#portfolio{
+	font-weight: 600;
 }
