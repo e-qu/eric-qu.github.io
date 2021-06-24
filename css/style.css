@@ -4,12 +4,16 @@
 html {
     scroll-behavior: smooth;
 }
-
+body{
+	background: rgb(46, 14, 185);
+background: linear-gradient(90deg, rgb(150, 157, 190) 0%, rgb(47, 17, 177) 35%, rgb(129, 117, 117) 100%);
+}
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins',sans-serif;
+	font-family: 'Poppins',sans-serif !important;
+	
 }
 .navbar{
 	position: fixed;
@@ -70,19 +74,22 @@ html {
 	height: 100%;
 	width:100%;
 	background: url('http://a.mktgcdn.com/p/_TBE6uUEiZ0_KFT5bW0jsTyqzRIkVzGF1-4hTvIeJEY/2500x1667.jpg');
-	background-size: 100% 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url('https://prodigalthought.files.wordpress.com/2016/07/professional-sports.png');
-	background-size: 100% 100%;
+	background: url('https://mongooseagency.com/files/3415/9620/1413/Return_of_Sports.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
 	background: url('https://cdn-res.keymedia.com/cms/images/ca/155/0319_637171637373959129.jpg');
-	background-size: 100% 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 }
@@ -119,4 +126,22 @@ footer{
 }
 .h2{
     color: white;
+}
+
+.container-fluid{
+	background-color: black;
+	
+}
+.img_link{
+	text-decoration: none !important;
+	color: white;
+}
+
+#portfolio{
+	color: white;
+	
+}
+.img_link:hover{
+	text-decoration: none !important;
+	color: white;
 }
